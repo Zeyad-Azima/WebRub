@@ -1,2 +1,2 @@
-# ReconRub
-ReconRub Web Reconnaissance Framework Written in Ruby
+# WebRub
+Web Reconnaissance Framework Written in Ruby
