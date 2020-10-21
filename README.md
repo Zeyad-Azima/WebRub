@@ -15,7 +15,7 @@ live domain checker
 Resolve domains to ips
 Directory BruteForce
 ```
-2- Features Coming in the next updates
+2- Features Coming with the next updates
 ```
 Urls Extractor (soon)
 Port Scanning (soon)
