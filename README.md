@@ -67,5 +67,7 @@ and more ...
 
 <img src='Screenshots/5.png' />
 
+<img src='Screenshots/6.png' />
+
 # Author:
 <a href='https://www.facebook.com/elkingzeyad.azeem'>@ZeyadAzima</a>
