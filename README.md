@@ -83,15 +83,7 @@ and more ...
 ```
 
 # Screenshots:
-<img src='Screenshots/2.png' />
 
-<img src='Screenshots/3.png' />
-
-<img src='Screenshots/4.png' />
-
-<img src='Screenshots/5.png' />
-
-<img src='Screenshots/6.png' />
 
 # Author:
 <a href='https://www.facebook.com/elkingzeyad.azeem'>@ZeyadAzima</a>
