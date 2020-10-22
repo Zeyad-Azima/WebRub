@@ -31,6 +31,7 @@ Enter Your Choice(ex: 1,2,3,4):
 ```
 Ruby 2.7
 python 3.x
+whatweb
 ```
 
 # Install:
@@ -38,6 +39,7 @@ python 3.x
 sudo apt install ruby-full
 sudo apt install python3
 sudo apt install python3-pip
+sudo apt install whatweb
 gem install colorize
 git clone https://github.com/Zeyad-Azima/WebRub.git
 cd WebRub
