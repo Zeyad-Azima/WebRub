@@ -1,6 +1,32 @@
 # WebRub
 Web Reconnaissance Framework Written in Ruby
+```
+██╗    ██╗███████╗██████╗ ██████╗ ██╗   ██╗██████╗
+██║    ██║██╔════╝██╔══██╗██╔══██╗██║   ██║██╔══██╗
+██║ █╗ ██║█████╗  ██████╔╝██████╔╝██║   ██║██████╔╝
+██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
+╚███╔███╔╝███████╗██████╔╝██║  ██║╚██████╔╝██████╔╝
+ ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝
+                   ZeyadAzima
+          https://github.com/Zeyad-Azima
+===================================================
+|                    WebRub                       |
+===================================================
+| 1-Subdomain BruteForce (Fast)                   |
+| 2-live domain checker (Fast)                    |
+| 3-Resolve domains to ips (Fast)                 |
+| 4-Directory BruteForce (Fast)                   |
+| 5-Extract Web Headers (Fast)                    |
+| 6-Shodan Searcher (Fast)                        |
+===================================================
+|                     V0.2                        |
+|       there is more updates coming soon         |
+===================================================
 
+
+Enter Your Choice(ex: 1,2,3,4):
+
+```
 # Install:
 ```
 sudo apt install ruby-full
@@ -57,8 +83,6 @@ and more ...
 ```
 
 # Screenshots:
-<img src='Screenshots/1.png' />
-
 <img src='Screenshots/2.png' />
 
 <img src='Screenshots/3.png' />
