@@ -24,8 +24,6 @@ Web Reconnaissance Framework Written in Ruby
 ===================================================
 
 
-Enter Your Choice(ex: 1,2,3,4):
-
 ```
 # Requirements:
 ```
