@@ -11,6 +11,8 @@ load 'core/live.rb'
 load 'core/resolver.rb'
 load 'core/subdomain.rb'
 load 'core/brute.rb'
+load 'core/wtweb.rb'
+load 'core/shodan.rb'
 
 $choice
 class Start
@@ -43,7 +45,7 @@ class Start
 
 """.red
 
-    puts "Enter Your Choice(ex: 1,2,3,4):".red
+    puts "Enter Your Choice(ex: 1,2,3,4,5,6):".red
     $choice=gets.chomp.to_i
   end
   def main
@@ -106,7 +108,8 @@ class Start
       puts "Enter subdomains list(ex: subdomains.txt): ".green
       sublist=gets.chomp.to_s
       puts ""
-      puts system('bash /core/whatweb.sh '+sublist)
+      header=Web.new
+      puts header.grab(sublist)
       puts ""
       puts "[+] Press Enter to Continue: ".blue
       cont=gets.chomp
@@ -117,7 +120,8 @@ class Start
       puts "Shodan Searcher:>".green
       puts "Enter Your target doamin(ex: google.com):".green
       target=gets.chomp.to_s
-      puts system('python3 /core/shodan.py '+target)
+      shod=Shodan.new
+      puts shod.attack(target)
       puts ""
       puts "[+] Press Enter to Continue: ".blue
       cont=gets.chomp
