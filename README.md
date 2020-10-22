@@ -27,6 +27,12 @@ Web Reconnaissance Framework Written in Ruby
 Enter Your Choice(ex: 1,2,3,4):
 
 ```
+# Requirements:
+```
+Ruby 2.7
+python 3.x
+```
+
 # Install:
 ```
 sudo apt install ruby-full
@@ -38,11 +44,6 @@ cd WebRub
 pip3 install -r requirements.txt
 chmod +x WebRub.rb
 sudo ruby WebRub.rb
-```
-# Requirements:
-```
-Ruby 2.7
-python 3.x
 ```
 
 # Features:
