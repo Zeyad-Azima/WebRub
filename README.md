@@ -89,7 +89,7 @@ and more ...
 ```
 
 # Screenshot:
-<img src='Screenshots/1.png' />
+<img src='Screenshots/Screen.png' />
 
 
 # Author:
