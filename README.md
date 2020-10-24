@@ -21,9 +21,7 @@ Whatweb
 # Install:
 ```
 git clone https://github.com/Zeyad-Azima/WebRub.git
-cd WebRub
-sudo chmod +x install.sh
-./install.sh
+cd WebRub && sudo chmod +x install.sh && ./install.sh
 ```
 
 # Features:
