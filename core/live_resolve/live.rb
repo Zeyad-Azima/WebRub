@@ -19,7 +19,7 @@ class Domain
     File.readlines(list).each do |host|
       s=TCPSocket.new("#{host.chomp}",80)
       if s.connect_address
-        puts host
+        puts "[+]=> http://#{host}/"
       end
     rescue SocketError, Errno::ENETUNREACH, Errno::ETIMEDOUT, Errno::ENOENT, Errno::ECONNREFUSED, Errno::ENOENT
 
