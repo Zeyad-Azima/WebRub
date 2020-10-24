@@ -36,6 +36,7 @@ Whatweb
 git clone https://github.com/Zeyad-Azima/WebRub.git
 cd WebRub
 sudo chmod +x install.sh
+./install.sh
 ```
 
 # Features:
@@ -44,7 +45,7 @@ sudo chmod +x install.sh
 Problems Fixed: Live domain Checker
 
 1-Subdomain Enumeration
-  - Subdomain Enumeration Using <a href='https://github.com/Findomain/Findomain'>Findomain</a>
+  - Subdomain Enumeration Using Findomain [https://github.com/Findomain/Findomain]
 
 2-Subdomain BruteForcing
   - Bruteforce Subdomains using wordlist
