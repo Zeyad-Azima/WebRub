@@ -1,6 +1,5 @@
 # WebRub
 Web Reconnaissance Framework Written in Ruby
-<img src='Screenshots/logo.jpg' />
 ```
                 ██╗    ██╗███████╗██████╗ ██████╗ ██╗   ██╗██████╗
                 ██║    ██║██╔════╝██╔══██╗██╔══██╗██║   ██║██╔══██╗
@@ -8,21 +7,9 @@ Web Reconnaissance Framework Written in Ruby
                 ██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
                 ╚███╔███╔╝███████╗██████╔╝██║  ██║╚██████╔╝██████╔╝
                 ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝
-                                   ZeyadAzima
-                        https://github.com/Zeyad-Azima
-        =====================================================================
-        |                            WebRub                                 |
-        =====================================================================
-        | 1-Subdomain Enumeration (Very Fast)  7-Extract Web Headers (Fast) |
-        | 2-Subdomain BruteForce (Fast)        8-Shodan Searcher (Fast)     |
-        | 3-live domain checker (Fast)         9-Scan common ports (Fast)   |
-        | 4-Resolve domains to ips (Fast)                                   |
-        | 5-Resolve ips to domains (Fast)                                   |
-        | 6-Directory BruteForce (Fast)                                     |
-        =====================================================================
-        |                              V0.3                                 |
-        =====================================================================
 ```
+<img src='Screenshots/logo.jpg' />
+
 # Requirements:
 ```
 Rust
