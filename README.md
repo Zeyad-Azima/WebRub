@@ -1,77 +1,81 @@
 # WebRub
 Web Reconnaissance Framework Written in Ruby
+<img src='Screenshots/logo.jpg' />
 ```
-██╗    ██╗███████╗██████╗ ██████╗ ██╗   ██╗██████╗
-██║    ██║██╔════╝██╔══██╗██╔══██╗██║   ██║██╔══██╗
-██║ █╗ ██║█████╗  ██████╔╝██████╔╝██║   ██║██████╔╝
-██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
-╚███╔███╔╝███████╗██████╔╝██║  ██║╚██████╔╝██████╔╝
- ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝
-                   ZeyadAzima
-          https://github.com/Zeyad-Azima
-===================================================
-|                    WebRub                       |
-===================================================
-| 1-Subdomain BruteForce (Fast)                   |
-| 2-live domain checker (Fast)                    |
-| 3-Resolve domains to ips (Fast)                 |
-| 4-Directory BruteForce (Fast)                   |
-| 5-Extract Web Headers (Fast)                    |
-| 6-Shodan Searcher (Fast)                        |
-===================================================
-|                     V0.2                        |
-|       there is more updates coming soon         |
-===================================================
-
-
+        ██╗    ██╗███████╗██████╗ ██████╗ ██╗   ██╗██████╗
+        ██║    ██║██╔════╝██╔══██╗██╔══██╗██║   ██║██╔══██╗
+        ██║ █╗ ██║█████╗  ██████╔╝██████╔╝██║   ██║██████╔╝
+        ██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
+        ╚███╔███╔╝███████╗██████╔╝██║  ██║╚██████╔╝██████╔╝
+        ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝
+                           ZeyadAzima
+                 https://github.com/Zeyad-Azima
+=====================================================================
+|                            WebRub                                 |
+=====================================================================
+| 1-Subdomain Enumeration (Very Fast)  7-Extract Web Headers (Fast) |
+| 2-Subdomain BruteForce (Fast)        8-Shodan Searcher (Fast)     |
+| 3-live domain checker (Fast)         9-Scan common ports (Fast)   |
+| 4-Resolve domains to ips (Fast)                                   |
+| 5-Resolve ips to domains (Fast)                                   |
+| 6-Directory BruteForce (Fast)                                     |
+=====================================================================
+|                              V0.3                                 |
+=====================================================================
 ```
 # Requirements:
 ```
+Rust
 Ruby 2.7
 python 3.x
-whatweb
+Whatweb
 ```
 
 # Install:
 ```
-sudo apt install ruby-full
-sudo apt install python3
-sudo apt install python3-pip
-sudo apt install whatweb
-gem install colorize
 git clone https://github.com/Zeyad-Azima/WebRub.git
 cd WebRub
-pip3 install -r requirements.txt
-chmod +x WebRub.rb
-sudo ruby WebRub.rb
+sudo chmod +x install.sh
 ```
 
 # Features:
-1- Features in V0.2
+1- Features in V0.3
 ```
-1-Subdomain BruteForcing
-  - Bruteforce Subdomains using wordlist
-  
-2-live domain checker
-  - Check live domains for web service
-  
-3-Resolve domains to ips
-  - Resolving domains to ips
-  
-4-Directory BruteForce
-  - Bruteforce Web Directories and Files using wordlist
-  
-5-Extract Web Headers
-  -Extract web headers and web technologies using Whatweb
+Problems Fixed: Live domain Checker
 
-6-Shodan Searcher
-  -Search for target on shodan 
-  -Extract Headers, Hosts, Open Ports & Vulnerabilities (CVE)
+1-Subdomain Enumeration
+  - Subdomain Enumeration Using <a href='https://github.com/Findomain/Findomain'>Findomain</a>
+
+2-Subdomain BruteForcing
+  - Bruteforce Subdomains using wordlist
+
+3-live domain checker
+  - Check live domains for web service
+
+4-Resolve domains to ips
+  - Resolving domains to ips
+
+5-Resolve ips to domains
+  - Resolving ips to domains
+
+6-Directory BruteForce
+  - Bruteforce Web Directories and Files using wordlist
+
+7-Extract Web Headers
+  - Extract web headers and web technologies using Whatweb
+
+8-Shodan Searcher
+  - Search for target on shodan
+  - Extract Headers, Hosts, Open Ports & Vulnerabilities (CVE)
 
 ```
 2- Features Coming with the next updates
 ```
 Urls Extractor (soon)
+
+Parameter Bruteforce (soon)
+
+Server Exploiter (soon)
 
 Port Scanning (soon)
 
@@ -80,16 +84,13 @@ Google Dorking (soon)
 Leak Searcher (soon)
 
 WAF Detector (soon)
+
 and more ...
 ```
 
-# Screenshots:
+# Screenshot:
 <img src='Screenshots/1.png' />
-<img src='Screenshots/2.png' />
-<img src='Screenshots/3.png' />
-<img src='Screenshots/4.png' />
-<img src='Screenshots/5.png' />
-<img src='Screenshots/6.png' />
+
 
 # Author:
 <a href='https://www.facebook.com/elkingzeyad.azeem'>@ZeyadAzima</a>
